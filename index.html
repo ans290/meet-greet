@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Muskan ✨</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+        body {
+            margin: 0;
+            background: #fffafa;
+            /* Soft, dreamy gradient */
+            background-image: radial-gradient(circle at 20% 20%, #ffedfa 0%, #fffafa 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            width: 340px;
+            padding: 40px;
+            border-radius: 40px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(255, 182, 193, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+        }
+
+        .flower-accent {
+            font-size: 24px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .date-badge {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #ff8fa3;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: inline-block;
+            border-bottom: 1px solid #ff8fa3;
+            padding-bottom: 4px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            color: #333;
+            margin: 10px 0 30px 0;
+            font-style: italic;
+        }
+
+        .attendees {
+            margin-bottom: 30px;
+            font-size: 15px;
+            color: #555;
+            line-height: 2;
+        }
+
+        .name-box {
+            color: #ff4d6d;
+            font-weight: 600;
+        }
+
+        .agenda-title {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #aaa;
+            margin-bottom: 15px;
+        }
+
+        .agenda-list {
+            background: white;
+            padding: 20px;
+            border-radius: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+            text-align: left;
+        }
+
+        .agenda-item {
+            font-size: 14px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            color: #444;
+        }
+
+        .agenda-item span {
+            margin-right: 10px;
+            color: #ffb3c1;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Floating effect */
+        .card {
+            animation: float 4s infinite ease-in-out;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <span class="flower-accent">🌸</span>
+        <div class="date-badge">17TH JANUARY</div>
+        <h1>The Meet & Greet</h1>
+
+        <div class="attendees">
+            Between <span class="name-box">Muskan</span><br>
+            & Her Favorite <span class="name-box">Bestie</span> (probably) 🥲
+        </div>
+
+        <div class="agenda-title">Proposed Agenda</div>
+        <div class="agenda-list">
+            <div class="agenda-item"><span>✦</span> Delicious Pizza & Momos</div>
+            <div class="agenda-item"><span>✦</span> Endless Conversations</div>
+            <div class="agenda-item"><span>✦</span> Unlimited Good Vibes</div>
+        </div>
+
+        <div class="footer">
+            Can't wait to see you. ✨
+        </div>
+    </div>
+
+</body>
+</html>
